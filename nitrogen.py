@@ -17,18 +17,18 @@ while value <= amount:
 
  if cb == ("c"):
    
-    code = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=16))
+    nitro = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=16))
     f = open('nitroC.txt', "a+")
-    f.write(f'{code}\n')
+    f.write(f'{nitro}\n')
     f.close()
-    print(f'[GENERATED] {code}')
+    print(f'[GENERATED] {nitro}')
     value += 1
 
 else:
 
-      code = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=24))
+      nitro = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=24))
       f = open('nitroB.txt', "a+")
-      f.write(f'{code}\n')
+      f.write(f'{nitro}\n')
       f.close()
-      print(f'[GENERATED] {code}')
+      print(f'[GENERATED] {nitro}')
       value += 1

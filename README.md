@@ -7,3 +7,5 @@ the codes after https://discord.gift/ are random generated '-'
 
 rmb guys
 this script was made in only 30-34 line so it wont be the best
+
+guys i might work on the script tho if i am bored maybe adding a checker
